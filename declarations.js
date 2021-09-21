@@ -20,7 +20,7 @@ let display_value = parseFloat(display.textContent);
 
 let observer = new MutationObserver((mutation) => {
   display_value = parseFloat(display.textContent);
-  //console.log(display_value);
+  console.log(display.textContent);
 });
 observer.observe(display, { childList: true });
 

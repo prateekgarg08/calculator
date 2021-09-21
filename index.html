@@ -12,30 +12,33 @@
   </head>
 
   <body>
-    <div id="calculator_container">
-      <div id="display">0</div>
-      <div id="grid3">
-        <button class="numbers gird3_item" id="btn_7">7</button>
-        <button class="numbers gird3_item" id="btn_8">8</button>
-        <button class="numbers gird3_item" id="btn_9">9</button>
-        <button class="numbers gird3_item" id="btn_4">4</button>
-        <button class="numbers gird3_item" id="btn_5">5</button>
-        <button class="numbers gird3_item" id="btn_6">6</button>
-        <button class="numbers gird3_item" id="btn_1">1</button>
-        <button class="numbers gird3_item" id="btn_2">2</button>
-        <button class="numbers gird3_item" id="btn_3">3</button>
+    <div id="con">
+      <div id="calculator_container">
+        <div id="display">0</div>
+        <div id="grid3">
+          <button data-keycode="55" class="numbers gird3_item" id="btn_7">7</button>
+          <button data-keycode="56" class="numbers gird3_item" id="btn_8">8</button>
+          <button data-keycode="57" class="numbers gird3_item" id="btn_9">9</button>
+          <button data-keycode="52" class="numbers gird3_item" id="btn_4">4</button>
+          <button data-keycode="53" class="numbers gird3_item" id="btn_5">5</button>
+          <button data-keycode="54" class="numbers gird3_item" id="btn_6">6</button>
+          <button data-keycode="49" class="numbers gird3_item" id="btn_1">1</button>
+          <button data-keycode="50" class="numbers gird3_item" id="btn_2">2</button>
+          <button data-keycode="51" class="numbers gird3_item" id="btn_3">3</button>
+        </div>
+        <button data-keycode="61" class="operators" id="add">+</button>
+        <button data-keycode="173" class="operators" id="substract">-</button>
+        <button data-keycode="56" class="operators" id="multiply">*</button>
+        <button data-keycode="191" class="operators" id="divide">/</button>
+        <button data-keycode="48" class="numbers" id="btn_0">0</button>
+        <button data-keycode="190" class="extra" id="dot">.</button>
+  
+        <button data-keycode="8" class="extra" id="del">Del</button>
+  
+        <button data-keycode="61" id="equal" class="extra">=</button>
+        <button id="clear" class="extra">Clear</button>
       </div>
-      <button class="operators" id="add">+</button>
-      <button class="operators" id="substract">-</button>
-      <button class="operators" id="multiply">*</button>
-      <button class="operators" id="divide">/</button>
-      <button class="numbers" id="btn_0">0</button>
-      <button class="extra" id="dot">.</button>
-
-      <button class="extra" id="del">Del</button>
-
-      <button id="equal" class="extra">=</button>
-      <button id="clear" class="extra">Clear</button>
     </div>
+    
   </body>
 </html>
