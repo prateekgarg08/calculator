@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.numbers {
+  font-size: 30px;
+  padding: 5px;
+  margin: 2px 3px;
+}
+.operators,
+.extra {
+  background-color: orange;
+  color: white;
+  font-size: 30px;
+  padding: 5px;
+  margin: 2px 3px;
+}
+
+#grid3 {
+  grid-row-start: 2;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+#calculator_container {
+  display: grid;
+  width: 400px;
+  height: 500px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+#display {
+  background-color: azure;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  text-align: right;
+  padding: auto 10px;
+  font-size: 60px;
+}
